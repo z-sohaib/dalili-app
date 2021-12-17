@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import Navbar from '../components/Navbar'
 import BackButton from '../components/BackButton'
+import Head from "next/head";
 
 import Footer from "../components/Footer";
 

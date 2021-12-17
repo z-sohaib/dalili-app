@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from "next/head";
 import { Navigation, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Footer from "../../components/Footer";

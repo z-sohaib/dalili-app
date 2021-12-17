@@ -51,7 +51,7 @@ const Home = () => {
               </div>
             </a>
           </div>
-          <a href="/map"><button className="absolute bottom-12 right-12 px-6 py-2 bg-green-800 rounded-md text-white">الخارطة العامة</button></a>
+          <a href="/map"><button className="absolute bottom-12 right-12 px-6 py-2 bg-green-800 rounded-md text-white">الخريطة العامة</button></a>
           <Navbar></Navbar>
           <Footer></Footer>
         </div>
