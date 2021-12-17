@@ -5,6 +5,7 @@
             "name": "site",
             "id":0,
             "title": "قاعة الصلاة",
+            "numberOfVisitors": 0,
             "images": [
                 {
                     "idImages": 0,
@@ -20,6 +21,7 @@
             "name": "site",
             "id":1,
             "title": "قبة المسجد الأعظم",
+            "numberOfVisitors": 0,
             "images": [
                 {
                     "idImages": 0,
@@ -35,6 +37,7 @@
             "name": "site",
             "id":2,
             "title": "غرف الوضوء",
+            "numberOfVisitors": 0,
             "images": [
                 {
                     "idImages": 0,
@@ -50,6 +53,7 @@
             "name": "site",
             "id":2,
             "title": "مركز ثقافي",
+            "numberOfVisitors": 0,
             "images": [
                 {
                     "idImages": 0,
