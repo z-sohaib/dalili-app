@@ -8,7 +8,6 @@ import EventCard from '../../components/shared/EventCard';
 import 'swiper/css/bundle';
 import Link from 'next/link';
 import Image from 'next/image';
-import SelectionCase from '../../components/selectionCase';
 
 function Tourist() {
     return (
