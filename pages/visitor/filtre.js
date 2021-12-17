@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+import Link from "next/link";
+import Image from "next/image";
 import BackButton from "../../components/BackButton";
 import SelectionCase from "../../components/SelectionCase";
 
@@ -9,14 +11,15 @@ const filtre = () => {
     <div className="relative h-screen pt-32 Container">
       <div className="grid grid-cols-2 justify-between">
         <div>
-            <a href='/tourist'>   <button className="userType text-white text-xl px-4 py-2 flex items-center ml-12">
-            <img src="/imgs/menu.png" width="25" /> تصنيف
-          </button></a>
+            <Link href='/tourist'>
+                <a><button className="userType text-white text-xl px-4 py-2 flex items-center ml-12">
+                <Image src="/imgs/menu.png" alt="picture" width="25" /> تصنيف
+              </button></a>
+            </Link>
        
         </div>
         <div className="pr-20">
-          <a href="/tourist"><img src="/imgs/exit.png" width="30px" className="float-right"></img></a>
-          
+          <Link href="/tourist"><a><Image src="/imgs/exit.png" alt="picture" width="30px" className="float-right" /></a></Link>
         </div>
       </div>
 
@@ -29,9 +32,11 @@ const filtre = () => {
         <SelectionCase choice="تاريخ"></SelectionCase>
       </div>
 
-      <a href="/">
-        <BackButton></BackButton>
-      </a>
+      <Link href="/">
+        <a>
+          <BackButton></BackButton>
+        </a>
+      </Link>
       <Navbar></Navbar>
       <Footer></Footer>
     </div>

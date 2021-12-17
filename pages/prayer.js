@@ -5,6 +5,7 @@ import BackButton from '../components/BackButton'
 import Head from "next/head";
 
 import Footer from "../components/Footer";
+import Image from 'next/image';
 
 const Prayer = () => {
 
@@ -24,9 +25,9 @@ const Prayer = () => {
                     </Link>
                 </div>
                 <div className="absolute bottom-0 w-full" >
-                    <img className="mx-auto" src='/imgs/logo.png' width="30%"></img>
+                    <Image className="mx-auto" src='/imgs/logo.png' alt='picture' width="30%" />
                 </div>
-                <a href='/'><BackButton></BackButton></a>
+                <Link href='/'><a><BackButton></BackButton></a></Link>
                 <Navbar></Navbar>
 
                     <Footer></Footer>

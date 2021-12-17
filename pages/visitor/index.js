@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from "next/head";
+import Image from 'next/image';
 import { Navigation, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Footer from "../../components/Footer";
@@ -27,7 +28,7 @@ function Tourist() {
                         <SelectionCase choice="تاريخ"></SelectionCase>
                     </div>
                         <div className='flex justify-between px-32'>
-                            <button className='userType text-white text-xl px-4 py-2 flex items-center'><img src='/imgs/menu.png' width="25" className='mx-1'/>  تصنيف</button>
+                            <button className='userType text-white text-xl px-4 py-2 flex items-center'><Image src='/imgs/menu.png' width="25" className='mx-1' alt='picture' />  تصنيف</button>
                             <p className='text-white text-2xl'>الأماكن المتاحة</p>
                         </div>
                         <div className='pr-40 pl-72 '>
@@ -47,7 +48,7 @@ function Tourist() {
                             </Swiper>
                         </div>
                         <div className='flex justify-between px-32 mt-12'>
-                            <button className='userType text-white text-xl px-4 py-2 flex items-center'><img src='/imgs/menu.png' width="25" className='mx-1'/>  تصنيف</button>
+                            <button className='userType text-white text-xl px-4 py-2 flex items-center'><Image src='/imgs/menu.png' alt='picture' width="25" className='mx-1'/>  تصنيف</button>
                             <p className='text-white text-2xl'>اخر الأحداث</p>
                         </div>
                         <div className='pr-40 pl-72'>

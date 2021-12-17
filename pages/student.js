@@ -18,7 +18,7 @@ const student = () => {
                         <a className="userType px-16 py-6 text-center text-white my-5 cursor-pointer w-1/2">عرض هيكلة المكتبة</a>
                     </Link>
                 </div>
-          <a href='/'><BackButton></BackButton></a>
+          <Link href='/'><a><BackButton></BackButton></a></Link>
           <Navbar></Navbar>
           <Footer></Footer>
         </div>
