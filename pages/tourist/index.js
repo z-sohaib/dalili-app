@@ -24,7 +24,7 @@ function Tourist() {
                         <button className='userType text-white text-xl px-4 py-2 flex items-center'><img src='/imgs/menu.png' width="25" className='mx-1'/>  تصنيف</button>
                         <p className='text-white text-2xl'>الأماكن المتاحة</p>
                     </div>
-                    <div className='pr-40 pl-72'>
+                    <div className='pr-40 pl-72 '>
                         <Swiper
                         modules={[Navigation, A11y]}
                         slidesPerView={3}
