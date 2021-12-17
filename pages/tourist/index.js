@@ -14,12 +14,12 @@ function Tourist() {
             <div className='relative h-screen pt-24 Container'>
                 <Navbar></Navbar>
                 <div className="grid grid-cols-5 w-8/12 mx-auto">
-        <SelectionCase choice="الأقرب"></SelectionCase>
-        <SelectionCase choice="الأكثر زيارة"></SelectionCase>
-        <SelectionCase choice="علوم"></SelectionCase>
-        <SelectionCase choice="دين"></SelectionCase>
-        <SelectionCase choice="تاريخ"></SelectionCase>
-      </div>
+                    <SelectionCase choice="الأقرب"></SelectionCase>
+                    <SelectionCase choice="الأكثر زيارة"></SelectionCase>
+                    <SelectionCase choice="علوم"></SelectionCase>
+                    <SelectionCase choice="دين"></SelectionCase>
+                    <SelectionCase choice="تاريخ"></SelectionCase>
+                </div>
                     <div className='flex justify-between px-32'>
                         <button className='userType text-white text-xl px-4 py-2 flex items-center'><img src='/imgs/menu.png' width="25" className='mx-1'/>  تصنيف</button>
                         <p className='text-white text-2xl'>الأماكن المتاحة</p>
