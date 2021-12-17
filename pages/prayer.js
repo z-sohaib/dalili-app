@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import Navbar from '../components/Navbar'
 import BackButton from '../components/BackButton'
+import Head from "next/head";
 
 import Footer from "../components/Footer";
 
@@ -27,9 +28,10 @@ const Prayer = () => {
                 <a href='/'><BackButton></BackButton></a>
                 <Navbar></Navbar>
 
-                <Footer></Footer>
+                    <Footer></Footer>
+                </div>
             </div>
-        </div>
+        </>
     )
 }
 
