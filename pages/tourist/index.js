@@ -6,17 +6,25 @@ import Navbar from "../../components/Navbar";
 import ActivityCard from '../../components/shared/ActivityCard';
 import EventCard from '../../components/shared/EventCard';
 import 'swiper/css/bundle';
+import SelectionCase from '../../components/selectionCase';
 
 function Tourist() {
     return (
         <div className='homeContainer'> 
-            <div className='relative h-screen pt-32 Container'>
+            <div className='relative h-screen pt-24 Container'>
                 <Navbar></Navbar>
+                <div className="grid grid-cols-5 w-8/12 mx-auto">
+        <SelectionCase choice="الأقرب"></SelectionCase>
+        <SelectionCase choice="الأكثر زيارة"></SelectionCase>
+        <SelectionCase choice="علوم"></SelectionCase>
+        <SelectionCase choice="دين"></SelectionCase>
+        <SelectionCase choice="تاريخ"></SelectionCase>
+      </div>
                     <div className='flex justify-between px-32'>
                         <button className='userType text-white text-xl px-4 py-2 flex items-center'><img src='/imgs/menu.png' width="25" className='mx-1'/>  تصنيف</button>
                         <p className='text-white text-2xl'>الأماكن المتاحة</p>
                     </div>
-                    <div className='pr-40 pl-72'>
+                    <div className='pr-40 pl-72 '>
                         <Swiper
                         modules={[Navigation, A11y]}
                         slidesPerView={3}

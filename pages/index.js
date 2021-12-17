@@ -6,7 +6,7 @@ const Home = () => {
     <div className="homeContainer">
       <div className="relative h-screen pt-60 Container">
         <div className="w-9/12 mx-auto grid grid-cols-3 my-auto">
-          <a href="">
+          <a href="./prayer">
             {" "}
             <div className="userType w-7/12 mx-auto py-8 h-full">
               <img
@@ -15,11 +15,11 @@ const Home = () => {
                 className="mx-auto"
               ></img>
               <div className="text-center text-white mt-5 cursor-pointer">
-                Prayer
+               مصلي
               </div>
             </div>
           </a>
-          <a>
+          <a href='./visitor'>
             <div className="userType w-7/12 mx-auto py-8  h-full">
               <img
                 src="/imgs/visitor.png"
@@ -27,12 +27,12 @@ const Home = () => {
                 className="mx-auto"
               ></img>
               <div className="text-center text-white mt-5 cursor-pointer">
-                Visitor
+                سائح
               </div>
             </div>
           </a>
 
-          <a>
+          <a href='/'>
             <div className="userType w-7/12 mx-auto py-8 h-full">
               <img
                 src="/imgs/reading-book.png"
@@ -40,11 +40,12 @@ const Home = () => {
                 className="mx-auto"
               ></img>
               <div className="text-center text-white mt-5 cursor-pointer">
-                Student/Researcher
+                قارئ/باحث
               </div>
             </div>
           </a>
         </div>
+        <a href="/map"><button className="absolute bottom-12 right-12 px-6 py-2 bg-green-800 rounded-md text-white">الخارطة العامة</button></a>
         <Navbar></Navbar>
         <Footer></Footer>
       </div>
