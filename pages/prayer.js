@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 const Prayer = () => {
     return (
@@ -19,6 +20,7 @@ const Prayer = () => {
                 <div className="absolute bottom-0 w-full" >
                     <img className="mx-auto" src='/imgs/logo.png' width="30%"></img>
                 </div>
+                <Navbar></Navbar>
             </div>
         </div>
     )

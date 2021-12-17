@@ -6,7 +6,7 @@ const Home = () => {
     <div className="homeContainer">
       <div className="relative h-screen pt-60 Container">
         <div className="w-9/12 mx-auto grid grid-cols-3 my-auto">
-          <a href="">
+          <a href="./prayer">
             {" "}
             <div className="userType w-7/12 mx-auto py-8 h-full">
               <img
@@ -19,7 +19,7 @@ const Home = () => {
               </div>
             </div>
           </a>
-          <a>
+          <a href='./visitor'>
             <div className="userType w-7/12 mx-auto py-8  h-full">
               <img
                 src="/imgs/visitor.png"
@@ -32,7 +32,7 @@ const Home = () => {
             </div>
           </a>
 
-          <a>
+          <a href="./student">
             <div className="userType w-7/12 mx-auto py-8 h-full">
               <img
                 src="/imgs/reading-book.png"
