@@ -5,13 +5,19 @@ import BackButton from '../components/BackButton';
 
 const student = () => {
     return (
-        <div className="homeContainer">
-        <div className="relative h-screen pt-60 Container">
-          <a href='/'><BackButton></BackButton></a>
-          <Navbar></Navbar>
-          <Footer></Footer>
-        </div>
-      </div>
+        <>
+          <Head>
+            <title>GMosque | Student</title>
+            <meta name="keywords" content="gmosque"/>
+          </Head>
+          <div className="homeContainer">
+            <div className="relative h-screen pt-60 Container">
+              <a href='/'><BackButton></BackButton></a>
+              <Navbar></Navbar>
+              <Footer></Footer>
+            </div>
+          </div>
+        </>
     );
 };
 

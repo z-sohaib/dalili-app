@@ -27,10 +27,10 @@ const Test = () => {
                     <div className='flex justify-center mb-4'>
                         <SimpleImageSlider
                             width={800}
-                            height={400}
+                            height={430}
                             images={images}
                             autoPlay={true}
-                            autoPlayDelay={1.0}
+                            autoPlayDelay={1.5}
                         />
                     </div>
                     <div className='flex justify-center'>
