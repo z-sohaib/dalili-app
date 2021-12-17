@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
         </div>
         <div>
-            <img src="/imgs/down.png" width="30px" className="cursor-pointer" onClick={handleClick}></img>
+            <img src={`${display?'/imgs/down.png':'imgs/up.png'}`} width="30px" className="cursor-pointer" onClick={handleClick}></img>
         </div>
       </div>
     </div>

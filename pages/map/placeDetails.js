@@ -17,9 +17,10 @@ const placeDetails = () => {
                   <div className='mt-2 text-white text-md'>وسيكون المسجد الجزائري ثالث أكبر مسجد في العالم، من حيث المساحة، لكنه سيكون الأكبر في أفريقيا.</div>
               </div>
           </div>
-        <a href='/map'><BackButton></BackButton></a>
+       
         <Navbar></Navbar>
         <Footer></Footer>
+        <a href='/map'><BackButton></BackButton></a>
       </div>
     </div>
     );

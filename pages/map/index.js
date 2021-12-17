@@ -19,10 +19,11 @@ const MapPage = () => {
                 <a href='/map/placeDetails'><div className="absolute p-2 rounded-xl bg-red-500 loc5 cursor-pointer"></div></a>
                 
             </div>
-            <a href="/"><BackButton></BackButton></a>
+           
           
           <Navbar></Navbar>
           <Footer></Footer>
+          <a href="/"><BackButton></BackButton></a> 
         </div>
       </div>
     );
