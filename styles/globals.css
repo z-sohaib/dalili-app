@@ -1,16 +1,20 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
+:root {
+  --green: #71b097;
+  --white: #ffffff;
 }
-
-* {
-  box-sizing: border-box;
+.homeContainer {
+  background-image: url("/imgs/bg.svg");
+  background-repeat: none;
+  background-size: cover;
+}
+.userType {
+  background-color: var(--green);
+  border-radius: 8px;
+}
+.Container {
+  background-color: rgba(113, 171, 156, 0.6);
 }
