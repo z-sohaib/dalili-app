@@ -20,13 +20,7 @@ const filtre = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-5 w-10/12 mx-auto mt-16">
-        <SelectionCase choice="الأقرب"></SelectionCase>
-        <SelectionCase choice="الأكثر زيارة"></SelectionCase>
-        <SelectionCase choice="علوم"></SelectionCase>
-        <SelectionCase choice="دين"></SelectionCase>
-        <SelectionCase choice="تاريخ"></SelectionCase>
-      </div>
+   
 
       <a href="/">
         <BackButton></BackButton>

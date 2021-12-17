@@ -108,3 +108,11 @@
 .infotitle{
   font-size: 40px;
 }
+.ContainerG {
+  background-color: #006233;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #006233 !important;
+}
