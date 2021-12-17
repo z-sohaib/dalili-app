@@ -18,3 +18,7 @@
 .Container {
   background-color: rgba(113, 171, 156, 0.6);
 }
+.backButton{
+  border-radius: 50%;
+  background-color: var(--green);
+}
