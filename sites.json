@@ -1,0 +1,65 @@
+{
+    "name": "sites",
+    "content": [
+        {
+            "name": "site",
+            "id":0,
+            "title": "قاعة الصلاة",
+            "images": [
+                {
+                    "idImages": 0,
+                    "path":"public/images/mosque1.jpg"
+                },
+                {
+                    "idImages": 1,
+                    "path":"public/images/mosque2.jpg"
+                }
+            ]
+        },
+        {
+            "name": "site",
+            "id":1,
+            "title": "قبة المسجد الأعظم",
+            "images": [
+                {
+                    "idImages": 0,
+                    "path":"public/images/mosque1.jpg"
+                },
+                {
+                    "idImages": 1,
+                    "path":"public/images/mosque2.jpg"
+                }
+            ]
+        },
+        {
+            "name": "site",
+            "id":2,
+            "title": "غرف الوضوء",
+            "images": [
+                {
+                    "idImages": 0,
+                    "path":"public/images/mosque1.jpg"
+                },
+                {
+                    "idImages": 1,
+                    "path":"public/images/mosque2.jpg"
+                }
+            ]
+        },
+        {
+            "name": "site",
+            "id":2,
+            "title": "مركز ثقافي",
+            "images": [
+                {
+                    "idImages": 0,
+                    "path":"public/images/mosque1.jpg"
+                },
+                {
+                    "idImages": 1,
+                    "path":"public/images/mosque2.jpg"
+                }
+            ]
+        }
+    ]
+}
