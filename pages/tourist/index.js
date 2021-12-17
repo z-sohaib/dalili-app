@@ -16,7 +16,7 @@ function Tourist() {
                 <Navbar></Navbar>
                     <div className='flex justify-between px-32'>
                         <a href="/tourist/filtre">
-                        <button className='userType text-white text-xl px-4 py-2 flex items-center'><Image src='/imgs/menu.png' alt='picture' width="25" className='mx-1'/>  تصنيف</button>
+                        <button className='userType text-white text-xl px-4 py-2 flex items-center'><Image src='/imgs/menu.png' alt='picture' width="25" className='mx-1' layout='fill'/>  تصنيف</button>
                         </a>
                         
                         <p className='text-white text-2xl'>الأماكن المتاحة</p>
@@ -39,7 +39,7 @@ function Tourist() {
                     </div>
                     <div className='flex justify-between px-32 mt-12'>
                     <a href="/tourist/filtre">
-                        <button className='userType text-white text-xl px-4 py-2 flex items-center'><Image src='/imgs/menu.png' alt='picture' width="25" className='mx-1'/>  تصنيف</button>
+                        <button className='userType text-white text-xl px-4 py-2 flex items-center'><Image src='/imgs/menu.png' alt='picture' width="25" className='mx-1' layout='fill'/>  تصنيف</button>
                         </a>
                         <p className='text-white text-2xl'>اخر الأحداث</p>
                     </div>
