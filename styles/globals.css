@@ -3,19 +3,18 @@
 @tailwind utilities;
 
 :root {
-  --green: #71B097;
+  --green: #71b097;
   --white: #ffffff;
 }
-.homeContainer{
-  background-image: url('/imgs/bg.svg');
+.homeContainer {
+  background-image: url("/imgs/bg.svg");
   background-repeat: none;
   background-size: cover;
 }
-.userType{
+.userType {
   background-color: var(--green);
   border-radius: 8px;
 }
-.Container{
-
-  background-color: rgba(113 , 171 , 156 , 0.7) ; 
+.Container {
+  background-color: rgba(113, 171, 156, 0.6);
 }
