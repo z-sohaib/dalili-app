@@ -1,0 +1,39 @@
+
+
+{
+    "name": "Events",
+    "content":[
+        {
+            "id": 0,
+            "title": "Event 1 title",
+            "imagePaths" : [
+                {
+                    "imageId": 0,
+                    "path":"public/images/mosque1.jpg"
+                },
+                {
+                    "imageId": 1,
+                    "path":"public/images/mosque2.jpg"
+                }
+            ],
+            "date": "2022-03-12T13:37:27+00:00",
+            "description": "this is an example of event description number one, cool event!"
+        },
+        {
+            "id": 1,
+            "title": "Event 2 title",
+            "imagePaths" : [
+                {
+                    "imageId": 0,
+                    "path":"public/images/mosque1.jpg"
+                },
+                {
+                    "imageId": 1,
+                    "path":"public/images/mosque2.jpg"
+                }
+            ],
+            "date": "2022-03-12T13:37:27+00:00",
+            "description": "this is an example of event description number two, cool event!"
+        }
+    ]
+}
