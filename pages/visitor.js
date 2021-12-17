@@ -6,7 +6,7 @@ const visitor = () => {
   return (
     <div className="homeContainer">
       <div className="relative h-screen pt-60 Container">
-      <BackButton></BackButton>
+        <a href='/'><BackButton></BackButton></a>
         <Navbar></Navbar>
         <Footer></Footer>
       </div>

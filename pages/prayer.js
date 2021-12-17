@@ -21,7 +21,7 @@ const Prayer = () => {
                 <div className="absolute bottom-0 w-full" >
                     <img className="mx-auto" src='/imgs/logo.png' width="30%"></img>
                 </div>
-                <BackButton></BackButton>
+                <a href='/'><BackButton></BackButton></a>
                 <Navbar></Navbar>
             </div>
         </div>

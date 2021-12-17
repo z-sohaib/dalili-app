@@ -32,7 +32,7 @@ const Home = () => {
             </div>
           </a>
 
-          <a href="./student">
+          <a href='/'>
             <div className="userType w-7/12 mx-auto py-8 h-full">
               <img
                 src="/imgs/reading-book.png"
