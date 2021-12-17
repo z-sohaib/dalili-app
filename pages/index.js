@@ -19,7 +19,7 @@ const Home = () => {
               </div>
             </div>
           </a>
-          <a href='./visitor'>
+          <a href='./tourist'>
             <div className="userType w-7/12 mx-auto py-8  h-full">
               <img
                 src="/imgs/visitor.png"
@@ -32,7 +32,7 @@ const Home = () => {
             </div>
           </a>
 
-          <a href='/'>
+          <a href='/student'>
             <div className="userType w-7/12 mx-auto py-8 h-full">
               <img
                 src="/imgs/reading-book.png"

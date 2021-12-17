@@ -13,15 +13,11 @@ function Tourist() {
         <div className='homeContainer'> 
             <div className='relative h-screen pt-24 Container'>
                 <Navbar></Navbar>
-                <div className="grid grid-cols-5 w-8/12 mx-auto">
-        <SelectionCase choice="الأقرب"></SelectionCase>
-        <SelectionCase choice="الأكثر زيارة"></SelectionCase>
-        <SelectionCase choice="علوم"></SelectionCase>
-        <SelectionCase choice="دين"></SelectionCase>
-        <SelectionCase choice="تاريخ"></SelectionCase>
-      </div>
                     <div className='flex justify-between px-32'>
+                        <a href="/tourist/filtre">
                         <button className='userType text-white text-xl px-4 py-2 flex items-center'><img src='/imgs/menu.png' width="25" className='mx-1'/>  تصنيف</button>
+                        </a>
+                        
                         <p className='text-white text-2xl'>الأماكن المتاحة</p>
                     </div>
                     <div className='pr-40 pl-72 '>
@@ -41,7 +37,9 @@ function Tourist() {
                         </Swiper>
                     </div>
                     <div className='flex justify-between px-32 mt-12'>
+                    <a href="/tourist/filtre">
                         <button className='userType text-white text-xl px-4 py-2 flex items-center'><img src='/imgs/menu.png' width="25" className='mx-1'/>  تصنيف</button>
+                        </a>
                         <p className='text-white text-2xl'>اخر الأحداث</p>
                     </div>
                     <div className='pr-40 pl-72'>
@@ -53,12 +51,22 @@ function Tourist() {
                         centeredSlides={true}
                         className='flex space-x-40 mt-4'
                         >
-                            <SwiperSlide><EventCard bgimage="bg-salat" message="اقامة الصلاة" time="15:16"/></SwiperSlide>
-                            <SwiperSlide><EventCard bgimage="bg-tajwid" message="حلقة تجويد" time="20:00"/></SwiperSlide>
-                            <SwiperSlide><EventCard bgimage="bg-tajwid" message="محاضرات دينية" time="21:00"/></SwiperSlide>
-                            <SwiperSlide><EventCard bgimage="bg-salat" message="اقامة الصلاة" time="15:16"/></SwiperSlide>
-                            <SwiperSlide><EventCard bgimage="bg-tajwid" message="حلقة تجويد" time="20:00"/></SwiperSlide>
-                            <SwiperSlide><EventCard bgimage="bg-tajwid" message="محاضرات دينية" time="21:00"/></SwiperSlide>
+                            
+                            <SwiperSlide>
+                                <a href="/eventDetails"><EventCard bgimage="bg-salat" message="اقامة الصلاة" time="15:16"/></a>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <a href="/eventDetails"><EventCard bgimage="bg-tajwid" message="حلقة تجويد" time="19:20"/></a>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <a href="/eventDetails"><EventCard bgimage="bg-salat" message="اقامة الصلاة" time="15:16"/></a>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <a href="/eventDetails"><EventCard bgimage="bg-salat" message="اقامة الصلاة" time="20:00"/></a>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                <a href="/eventDetails"><EventCard bgimage="bg-tajwid" message="حلقة تجويد" time="15:16"/></a>
+                                </SwiperSlide>
                         </Swiper>
                     </div>
                 <Footer></Footer>

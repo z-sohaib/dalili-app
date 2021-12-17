@@ -11,13 +11,13 @@ const Prayer = () => {
         <div className='homeContainer'>
             <div className='relative h-screen pt-60 Container'>
                 <div className='flex flex-col justify-center items-center'>
-                    <Link href="/choice1">
+                    <Link href="/prayerMap">
                         <a className="userType px-16 py-6 text-center text-white my-5 cursor-pointer w-1/2">الذهاب إلى قاعة الصلاة</a>
                     </Link>
-                    <Link href="/choice2">
+                    <Link href="/prayerMap">
                         <a className="userType px-16 py-6 text-center text-white my-5 cursor-pointer w-1/2">الذهاب إلى قاعة الوضوء</a>
                     </Link>
-                    <Link href="/choice3">
+                    <Link href="/map">
                         <a className="userType px-16 py-6 text-center text-white my-5 cursor-pointer w-1/2">عرض هيكلة المسجد</a>
                     </Link>
                 </div>

@@ -16,7 +16,7 @@
   border-radius: 8px;
 }
 .Container {
-  background-color: rgba(113, 171, 156, 0.6);
+  background-color: rgba(113, 171, 156, 0.35);
 }
 .backButton{
   border-radius: 50%;
@@ -115,4 +115,8 @@
 .swiper-button-next,
 .swiper-button-prev {
   color: #006233 !important;
+}
+.bottomb{
+  background: rgb(38,132,95);
+  background: linear-gradient(3deg, rgba(38,132,95,0.9) 0%, rgba(255,215,0,0) 100%);
 }
