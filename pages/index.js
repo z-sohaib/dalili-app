@@ -24,30 +24,29 @@ const Home = () => {
                 مصلي
                 </div>
               </div>
-            </a>
-            <a href='./visitor'>
-              <div className="userType w-7/12 mx-auto py-8  h-full">
-                <img
-                  src="/imgs/visitor.png"
-                  width="30%"
-                  className="mx-auto"
-                ></img>
-                <div className="text-center text-white mt-5 cursor-pointer">
-                  سائح
-                </div>
+            </div>
+          </a>
+          <a href='./tourist'>
+            <div className="userType w-7/12 mx-auto py-8  h-full">
+              <img
+                src="/imgs/visitor.png"
+                width="30%"
+                className="mx-auto"
+              ></img>
+              <div className="text-center text-white mt-5 cursor-pointer">
+                سائح
               </div>
             </a>
 
-            <a href='/'>
-              <div className="userType w-7/12 mx-auto py-8 h-full">
-                <img
-                  src="/imgs/reading-book.png"
-                  width="30%"
-                  className="mx-auto"
-                ></img>
-                <div className="text-center text-white mt-5 cursor-pointer">
-                  قارئ/باحث
-                </div>
+          <a href='/student'>
+            <div className="userType w-7/12 mx-auto py-8 h-full">
+              <img
+                src="/imgs/reading-book.png"
+                width="30%"
+                className="mx-auto"
+              ></img>
+              <div className="text-center text-white mt-5 cursor-pointer">
+                قارئ/باحث
               </div>
             </a>
           </div>

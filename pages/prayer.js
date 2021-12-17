@@ -9,29 +9,24 @@ import Footer from "../components/Footer";
 const Prayer = () => {
 
     return (
-        <>
-            <Head>
-                <title>GMosque | Prayer</title>
-                <meta name="keywords" content="gmosque"/>
-            </Head>
-            <div className='homeContainer'>
-                <div className='relative h-screen pt-60 Container'>
-                    <div className='flex flex-col justify-center items-center'>
-                        <Link href="/choice1">
-                            <a className="userType px-16 py-6 text-center text-white my-5 cursor-pointer w-1/2">الذهاب إلى قاعة الصلاة</a>
-                        </Link>
-                        <Link href="/choice2">
-                            <a className="userType px-16 py-6 text-center text-white my-5 cursor-pointer w-1/2">الذهاب إلى قاعة الوضوء</a>
-                        </Link>
-                        <Link href="/choice3">
-                            <a className="userType px-16 py-6 text-center text-white my-5 cursor-pointer w-1/2">عرض هيكلة المسجد</a>
-                        </Link>
-                    </div>
-                    <div className="absolute bottom-0 w-full" >
-                        <img className="mx-auto" src='/imgs/logo.png' width="30%"></img>
-                    </div>
-                    <a href='/'><BackButton></BackButton></a>
-                    <Navbar></Navbar>
+        <div className='homeContainer'>
+            <div className='relative h-screen pt-60 Container'>
+                <div className='flex flex-col justify-center items-center'>
+                    <Link href="/prayerMap">
+                        <a className="userType px-16 py-6 text-center text-white my-5 cursor-pointer w-1/2">الذهاب إلى قاعة الصلاة</a>
+                    </Link>
+                    <Link href="/prayerMap">
+                        <a className="userType px-16 py-6 text-center text-white my-5 cursor-pointer w-1/2">الذهاب إلى قاعة الوضوء</a>
+                    </Link>
+                    <Link href="/map">
+                        <a className="userType px-16 py-6 text-center text-white my-5 cursor-pointer w-1/2">عرض هيكلة المسجد</a>
+                    </Link>
+                </div>
+                <div className="absolute bottom-0 w-full" >
+                    <img className="mx-auto" src='/imgs/logo.png' width="30%"></img>
+                </div>
+                <a href='/'><BackButton></BackButton></a>
+                <Navbar></Navbar>
 
                     <Footer></Footer>
                 </div>

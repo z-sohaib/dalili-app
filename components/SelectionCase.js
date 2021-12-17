@@ -1,6 +1,6 @@
 import React , {useState} from 'react';
 
-const selectionCase = (props) => {
+const SelectionCase = (props) => {
     const [clicked , setClicked] = useState(false) ; 
     const handleClick = ()=>{
         setClicked(!clicked)
@@ -12,4 +12,4 @@ const selectionCase = (props) => {
     );
 };
 
-export default selectionCase;
+export default SelectionCase;
