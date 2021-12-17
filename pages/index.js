@@ -15,7 +15,7 @@ const Home = () => {
                 className="mx-auto"
               ></img>
               <div className="text-center text-white mt-5 cursor-pointer">
-                Prayer
+               مصلي
               </div>
             </div>
           </a>
@@ -27,7 +27,7 @@ const Home = () => {
                 className="mx-auto"
               ></img>
               <div className="text-center text-white mt-5 cursor-pointer">
-                Visitor
+                سائح
               </div>
             </div>
           </a>
@@ -40,11 +40,12 @@ const Home = () => {
                 className="mx-auto"
               ></img>
               <div className="text-center text-white mt-5 cursor-pointer">
-                Student/Researcher
+                قارئ/باحث
               </div>
             </div>
           </a>
         </div>
+        <a href="/map"><button className="absolute bottom-12 right-12 px-6 py-2 bg-green-800 rounded-md text-white">الخارطة العامة</button></a>
         <Navbar></Navbar>
         <Footer></Footer>
       </div>

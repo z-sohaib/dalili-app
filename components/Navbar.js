@@ -15,12 +15,12 @@ const Navbar = () => {
         {" "}
         <div>
         <div className="grid grid-cols-2 cursor-pointer">
-        <div className="mx-2 text-white">Arab</div>
+        <div className="mx-2 text-white">العربية</div>
           <img src="/imgs/dz.png" width="30px"></img>
         </div>
         <div className={`grid grid-cols-2 ${display?'hidden':'block'} cursor-pointer`}>
         <div className="mx-2 text-white">Eng</div>
-          <img src="/imgs/USA.png" width="30px"></img>
+          <img src="/imgs/usa.png" width="30px"></img>
         </div>
         </div>
         <div>
