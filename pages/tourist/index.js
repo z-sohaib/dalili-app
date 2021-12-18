@@ -27,12 +27,12 @@ function Tourist() {
                         centeredSlides={true}
                         className='flex space-x-20 mt-4'
                         >
-                            <SwiperSlide><ActivityCard bgimage="bg-manara" message="المنارة" /></SwiperSlide>
-                            <SwiperSlide><ActivityCard bgimage="bg-mosala" message="قاعة الصلاة" /></SwiperSlide>
-                            <SwiperSlide><ActivityCard bgimage="bg-musee" message="متحف المسجد" /></SwiperSlide>
-                            <SwiperSlide><ActivityCard bgimage="bg-manara" message="المنارة" /></SwiperSlide>
-                            <SwiperSlide><ActivityCard bgimage="bg-mosala" message="قاعة الصلاة" /></SwiperSlide>
-                            <SwiperSlide><ActivityCard bgimage="bg-musee" message="متحف المسجد" /></SwiperSlide>
+                            <SwiperSlide><a href='map/placeDetails'><ActivityCard bgimage="bg-manara" message="المنارة" /></a></SwiperSlide>
+                            <SwiperSlide><a href='map/placeDetails'><ActivityCard bgimage="bg-mosala" message="قاعة الصلاة" /></a></SwiperSlide>
+                            <SwiperSlide><a href='map/placeDetails'><ActivityCard bgimage="bg-musee" message="متحف المسجد" /></a></SwiperSlide>
+                            <SwiperSlide><a href='map/placeDetails'><ActivityCard bgimage="bg-manara" message="المنارة" /></a></SwiperSlide>
+                            <SwiperSlide><a href='map/placeDetails'><ActivityCard bgimage="bg-mosala" message="قاعة الصلاة" /></a></SwiperSlide>
+                            <SwiperSlide><a href='map/placeDetails'><ActivityCard bgimage="bg-musee" message="متحف المسجد" /></a></SwiperSlide>
                         </Swiper>
                     </div>
                     <div className='flex justify-between px-32 mt-12'>

@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
@@ -52,7 +53,7 @@ const Home = () => {
               </div>
             </a>
           </div>
-          <a href="/map"><button className="absolute bottom-12 right-12 px-6 py-2 bg-green-800 rounded-md text-white">الخريطة العامة</button></a>
+          <Link href="/map"><a className="absolute bottom-12 right-12 px-6 py-2 bg-green-800 rounded-md text-white z-50">الخريطة العامة</a></Link>
           <Navbar></Navbar>
           <Footer></Footer>
         </div>
