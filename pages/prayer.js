@@ -5,12 +5,10 @@ import BackButton from '../components/BackButton'
 import Head from "next/head";
 
 import Footer from "../components/Footer";
-import Image from 'next/image';
 
 const Prayer = () => {
 
     return (
-        <>
         <div className='homeContainer'>
             <div className='relative h-screen pt-60 Container'>
                 <div className='flex flex-col justify-center items-center'>
@@ -25,9 +23,9 @@ const Prayer = () => {
                     </Link>
                 </div>
                 <div className="absolute bottom-0 w-full" >
-                    <Image className="mx-auto" src='/imgs/logo.png' alt='picture' width="30%" />
+                    <img className="mx-auto" src='/imgs/logo.png' width="30%"></img>
                 </div>
-                <Link href='/'><a><BackButton></BackButton></a></Link>
+                <a href='/'><BackButton></BackButton></a>
                 <Navbar></Navbar>
 
                     <Footer></Footer>

@@ -19,6 +19,11 @@ const Test = () => {
         <div className='homeContainer'>
             <div className='relative h-screen pt-32 Container'>
                 <Navbar></Navbar>
+                    {/* <div className='flex justify-center space-x-8'>
+                        <div className='p-4 w-24 ContainerG text-white text-xl rounded-2xl flex flex-col text-center'><span>الساعة</span><span>00</span></div>
+                        <div className='p-4 w-24 ContainerG text-white text-xl rounded-2xl flex flex-col text-center'><span>الدقيقة</span><span>00</span></div>
+                        <div className='p-4 w-24 ContainerG text-white text-xl rounded-2xl flex flex-col text-center'><span>الثانية</span><span>00</span></div>
+                    </div> */}
                     <div className='flex justify-center mb-4'>
                         <SimpleImageSlider
                             width={800}

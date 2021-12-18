@@ -6,8 +6,7 @@ import Navbar from "../../components/Navbar";
 import ActivityCard from '../../components/shared/ActivityCard';
 import EventCard from '../../components/shared/EventCard';
 import 'swiper/css/bundle';
-import Link from 'next/link';
-import Image from 'next/image';
+import SelectionCase from '../../components/selectionCase';
 
 function Tourist() {
     return (
@@ -16,7 +15,7 @@ function Tourist() {
                 <Navbar></Navbar>
                     <div className='flex justify-between px-32'>
                         <a href="/tourist/filtre">
-                        <button className='userType text-white text-xl px-4 py-2 flex items-center'><Image src='/imgs/menu.png' alt='picture' width="25" className='mx-1' layout='fill'/>  تصنيف</button>
+                        <button className='userType text-white text-xl px-4 py-2 flex items-center'><img src='/imgs/menu.png' width="25" className='mx-1'/>  تصنيف</button>
                         </a>
                         
                         <p className='text-white text-2xl'>الأماكن المتاحة</p>
@@ -39,7 +38,7 @@ function Tourist() {
                     </div>
                     <div className='flex justify-between px-32 mt-12'>
                     <a href="/tourist/filtre">
-                        <button className='userType text-white text-xl px-4 py-2 flex items-center'><Image src='/imgs/menu.png' alt='picture' width="25" className='mx-1' layout='fill'/>  تصنيف</button>
+                        <button className='userType text-white text-xl px-4 py-2 flex items-center'><img src='/imgs/menu.png' width="25" className='mx-1'/>  تصنيف</button>
                         </a>
                         <p className='text-white text-2xl'>اخر الأحداث</p>
                     </div>
@@ -53,20 +52,20 @@ function Tourist() {
                         className='flex space-x-40 mt-4'
                         >
                             
-                                <SwiperSlide>
-                                <Link href="/eventDetails"><a><EventCard bgimage="bg-salat" message="اقامة الصلاة" time="15:16"/></a></Link>
+                            <SwiperSlide>
+                                <a href="/eventDetails"><EventCard bgimage="bg-salat" message="اقامة الصلاة" time="15:16"/></a>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                <Link href="/eventDetails"><a><EventCard bgimage="bg-tajwid" message="حلقة تجويد" time="19:20"/></a></Link>
+                                <a href="/eventDetails"><EventCard bgimage="bg-tajwid" message="حلقة تجويد" time="19:20"/></a>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                <Link href="/eventDetails"><a><EventCard bgimage="bg-salat" message="اقامة الصلاة" time="15:16"/></a></Link>
+                                <a href="/eventDetails"><EventCard bgimage="bg-salat" message="اقامة الصلاة" time="15:16"/></a>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                <Link href="/eventDetails"><a><EventCard bgimage="bg-salat" message="اقامة الصلاة" time="20:00"/></a></Link>
+                                <a href="/eventDetails"><EventCard bgimage="bg-salat" message="اقامة الصلاة" time="20:00"/></a>
                                 </SwiperSlide>
                                 <SwiperSlide>
-                                <Link href="/eventDetails"><a><EventCard bgimage="bg-tajwid" message="حلقة تجويد" time="15:16"/></a></Link>
+                                <a href="/eventDetails"><EventCard bgimage="bg-tajwid" message="حلقة تجويد" time="15:16"/></a>
                                 </SwiperSlide>
                         </Swiper>
                     </div>
