@@ -24,8 +24,8 @@ const Home = () => {
                 مصلي
                 </div>
               </div>
-            </div>
           </a>
+          
           <a href='./tourist'>
             <div className="userType w-7/12 mx-auto py-8  h-full">
               <img
@@ -35,6 +35,7 @@ const Home = () => {
               ></img>
               <div className="text-center text-white mt-5 cursor-pointer">
                 سائح
+              </div>
               </div>
             </a>
 
@@ -47,6 +48,7 @@ const Home = () => {
               ></img>
               <div className="text-center text-white mt-5 cursor-pointer">
                 قارئ/باحث
+              </div>
               </div>
             </a>
           </div>

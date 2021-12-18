@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 const Prayer = () => {
 
     return (
+        <>
         <div className='homeContainer'>
             <div className='relative h-screen pt-60 Container'>
                 <div className='flex flex-col justify-center items-center'>
