@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import Link from "next/link";
 const Navbar = () => {
     
   const [display , setDisplay] = useState('false') ; 
@@ -7,6 +8,7 @@ const Navbar = () => {
   }
   return (
     <div className="absolute w-full top-0">
+      <Link href="/"><a><div className="absolute top-3 left-8"><img className="w-20 h-28" src="/imgs/Logo.svg" /></div></a></Link>
       <div className="absolute w-full top-5">
         {" "}
         <img className="mx-auto" src="/imgs/nav.png" width="30%"></img>{" "}

@@ -12,7 +12,7 @@ const Home = () => {
       <div className="homeContainer">
         <div className="relative h-screen pt-60 Container">
           <div className="w-9/12 mx-auto grid grid-cols-3 my-auto">
-            <a href="./prayer">
+            <a href="/prayer">
               {" "}
               <div className="userType w-7/12 mx-auto py-8 h-full">
                 <img
@@ -26,7 +26,7 @@ const Home = () => {
               </div>
           </a>
           
-          <a href='./tourist'>
+          <a href='/tourist'>
             <div className="userType w-7/12 mx-auto py-8  h-full">
               <img
                 src="/imgs/visitor.png"
