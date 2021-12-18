@@ -21,7 +21,7 @@ const Navbar = () => {
           <img src="/imgs/dz.png" width="30px"></img>
         </div>
         <div className={`grid grid-cols-2 ${display?'hidden':'block'} cursor-pointer`}>
-        <div className="mx-2 text-white">الإنجليزية</div>
+        <div className="mx-2 text-white">Eng</div>
           <img src="/imgs/usa.png" width="30px"></img>
         </div>
         </div>
