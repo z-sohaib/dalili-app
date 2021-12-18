@@ -6,7 +6,6 @@ import Navbar from "../../components/Navbar";
 import ActivityCard from '../../components/shared/ActivityCard';
 import EventCard from '../../components/shared/EventCard';
 import 'swiper/css/bundle';
-import SelectionCase from '../../components/selectionCase';
 
 function Tourist() {
     return (
